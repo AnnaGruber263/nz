@@ -7,3 +7,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var marker = L.marker([-41.819167, 172.8375]).addTo(map);
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
+//marker zeigen
+console.log(marker);
+
+/*
+ let age = 10
+ console.log(age);
+ */
