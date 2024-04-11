@@ -21,3 +21,4 @@ marker.bindPopup(`
 </ul>
 `).openPopup();
 
+L.control.scale('metric').addTo(map);
