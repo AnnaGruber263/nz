@@ -302,7 +302,8 @@ L.geoJSON(jsondata, {}).bindPopup(function (layer) {
     <li>Länge: ${layer.feature.geometry.coordinates[0].toFixed(5)} </li>
     <li><a href="https://${layer.feature.properties.user}.github.io/nz">Etappenseite>/
     a></li>
-    
+    <li><a href="${layer.feature.properties.wikipedia}">Wikipediaseite</li>
+
     </ul>
     `;
 }).addTo(map);
