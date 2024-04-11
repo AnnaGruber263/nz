@@ -16,6 +16,5 @@ marker.bindPopup(`
 <li>Breite: ${lat.toFixed(5)} </li>
 <li>Länge: ${lng.toFixed(5)} </li>
 </ul>
-<br>I am a popup."
 `).openPopup();
 
