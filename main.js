@@ -13,8 +13,8 @@ let marker = L.marker([lat, lng]).addTo(map);
 marker.bindPopup(`
 <b>Nelson Lakes Nationalpark</b>
 <ul>
-<li>Breite: ${lat} </li>
-<li>Länge: ${lng} </li>
+<li>Breite: ${lat.toFixed(5)} </li>
+<li>Länge: ${lng.toFixed(5)} </li>
 </ul>
 <br>I am a popup."
 `).openPopup();
