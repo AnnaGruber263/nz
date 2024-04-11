@@ -21,4 +21,6 @@ marker.bindPopup(`
 </ul>
 `).openPopup();
 
-L.control.scale('metric').addTo(map);
+L.control.scale({
+    imperial: false
+}).addTo(map);
