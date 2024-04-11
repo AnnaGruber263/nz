@@ -11,7 +11,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 let marker = L.marker([lat, lng]).addTo(map);
 marker.bindPopup(`
-<b>Nelson Lakes Nationalpark</b>
+<h2>Nelson Lakes Nationalpark</h2>
 <ul>
 <li>Breite: ${lat.toFixed(5)} </li>
 <li>Länge: ${lng.toFixed(5)} </li>
